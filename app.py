@@ -2,7 +2,7 @@ import streamlit as st
 import spacy_streamlit
 # spacy_model = "en_core_web_sm" 
 import spacy
-nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 
 from PIL import Image
 import os
